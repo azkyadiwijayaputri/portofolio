@@ -1,0 +1,152 @@
+/* Styling Umum & Background */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.background-container {
+    width: 100%;
+    /* Gradasi Biru Muda ke Ungu Muda */
+    background: linear-gradient(to bottom right, #eddffc 0%, #afbff9 200%); 
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Card Section - Kotak Putih Membulat */
+.card-section {
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    padding: 30px 20px;
+    margin: 15px 0;
+    border-radius: 20px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    text-align: center;
+}
+
+/* --- STYLING FOTO PROFIL (PROFILE CARD) --- */
+.profile-card {
+    padding-bottom: 40px;
+}
+
+.profile-photo {
+    width: 120px; /* Ukuran foto */
+    height: 120px;
+    border-radius: 50%; /* Membuat foto bulat */
+    object-fit: cover;
+    border: 4px solid #c0d4ff; /* Border pink lembut di sekitar foto */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.profile-info h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 0;
+}
+
+.profile-info .role {
+    font-size: 1rem;
+    color: #5a8eff; /* Warna pink untuk peran/jurusan */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #4B0082; /* Ungu tua */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.contact-link:hover {
+    color: #69afff;
+}
+
+/* --- STYLING PENDIDIKAN & KEAHLIAN (Sama seperti sebelumnya) --- */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5a8eff;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #FFC0CB;
+    display: inline-block;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.education-item {
+    line-height: 1.5;
+}
+
+.institution {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin: 10px 0;
+}
+
+.major {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Keahlian Styling */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skill-tag {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.html-css-tag {
+    background: linear-gradient(to right, #ff99cc, #ff66b2); 
+}
+
+.design-tag {
+    background: linear-gradient(to right, #ffb3b3, #ff8080);
+}
+
+.canva-tag {
+    background: linear-gradient(to right, #e6b3ff, #cc99ff);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.8rem;
+    color: #999;
+    background-color: white;
+}
+.card-section:hover{
+    transform: translateY(-10px);
+    transition: transform 0.2s;
+}
